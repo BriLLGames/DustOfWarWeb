@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<title>Dust of War — военно-политическая стратегия в реальном времени</title>
+<meta name="description" content="Dust of War — военно-политическая стратегия в реальном времени с дипломатией на базе LLM, динамическим захватом территорий и встроенным моддингом. Разработчик — BrillGames.">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<div class="bg-theatre" aria-hidden="true"></div>
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="index.html" class="brand">
+      <span class="brand-main">DUST</span>
+      <span class="brand-sub">OF WAR</span>
+    </a>
+    <nav class="main-nav">
+      <a href="index.html#concept">Концепция</a>
+      <a href="index.html#pillars">Основы</a>
+      <a href="index.html#developer">Разработчик</a>
+      <a href="privacy.html">Конфиденциальность</a>
+      <a href="terms.html">Условия</a>
+    </nav>
+    <div style="display:flex; align-items:center; gap:14px;">
+      <div class="lang-toggle">
+        <a href="../index.html">EN</a>
+        <a href="index.html" class="active">RU</a>
+      </div>
+      <button class="nav-toggle-btn" aria-label="Открыть меню" aria-expanded="false">☰</button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <!-- ---------------------------- HERO ---------------------------- -->
+  <section class="hero">
+    <div class="wrap">
+      <div class="eyebrow">В разработке — соло-проект</div>
+      <h1 class="hero-title">DUST<span class="dim">OF WAR</span></h1>
+      <div class="hero-underline"></div>
+      <p class="hero-sub">2D военно-политическая стратегия в реальном времени о линии фронта, которая никогда не стоит на месте — здесь дипломатия решает не меньше, чем дивизии.</p>
+      <div class="hero-cta-row">
+        <a href="#" class="btn btn-disabled" aria-disabled="true">Вишлист — скоро</a>
+        <a href="#pillars" class="btn btn-ghost">Что уже задумано</a>
+      </div>
+      <div class="social-row" style="margin-top:28px;">
+        <a class="social-icon" href="https://www.youtube.com/@BrillGamesss" target="_blank" rel="noopener" aria-label="YouTube">
+          <img src="../assets/icons/youtube.png" alt="" onerror="this.parentElement.classList.add('placeholder'); this.remove(); this.parentElement.textContent='YT';">
+        </a>
+        <a class="social-icon" href="https://discord.gg/ywq4z9wzdn" target="_blank" rel="noopener" aria-label="Discord">
+          <img src="../assets/icons/discord.png" alt="" onerror="this.parentElement.classList.add('placeholder'); this.remove(); this.parentElement.textContent='DS';">
+        </a>
+        <a class="social-icon" href="https://t.me/brill_gamedev" target="_blank" rel="noopener" aria-label="Telegram">
+          <img src="../assets/icons/telegram.png" alt="" onerror="this.parentElement.classList.add('placeholder'); this.remove(); this.parentElement.textContent='TG';">
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <div class="wrap"><div class="frontline"></div></div>
+
+  <!-- ---------------------------- NEWS ---------------------------- -->
+  <section class="section" style="padding-bottom:0;">
+    <div class="wrap">
+      <div class="news-card">
+        <div>
+          <h4>Скоро бета-сборка v0.2.5</h4>
+          <p>Совсем скоро начнутся регулярные дневники разработки — прогресс, новые механики и закулисные заметки.</p>
+        </div>
+        <a href="https://t.me/brill_gamedev" target="_blank" rel="noopener" class="btn btn-ghost" style="padding:10px 18px;">Следить за новостями</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ---------------------------- CONCEPT ---------------------------- -->
+  <section class="section" id="concept">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="eyebrow">Концепция</div>
+        <h2>Мир, который вам отвечает</h2>
+        <p>Dust of War — глобальная военно-политическая стратегия. Здесь недостаточно просто двигать дивизии по карте — нужно вести переговоры, угрожать, блефовать и торговаться с правительствами, которые действительно реагируют на игрока.</p>
+      </div>
+      <div class="copy-block">
+        <p>В большинстве стратегий игроку позволено почти всё, а сама игра почти никак не ограничивает его действия. Dust of War строится на противоположной идее: дипломатический слой, реагирующий на игрока в реальном времени, линия фронта, которая может по-настоящему сдвинуться под ногами, и инструменты, позволяющие сообществу создавать контент вместе с разработчиком, а не ждать его.</p>
+        <p>Это соло-проект на раннем этапе разработки, и описание ниже — текущий план, а не финальный список функций. Часть идей может измениться по ходу разработки.</p>
+      </div>
+      <div class="wip-note">Всё на этой странице описывает запланированные или разрабатываемые функции и может измениться до релиза.</div>
+    </div>
+  </section>
+
+  <!-- ---------------------------- PILLARS ---------------------------- -->
+  <section class="section" id="pillars">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="eyebrow">Три основы</div>
+        <h2>На чём строится Dust of War</h2>
+      </div>
+
+      <div class="features-grid">
+
+        <div class="menu-card">
+          <div class="menu-icon">◆</div>
+          <div class="menu-text">
+            <h3>Дипломатия на базе LLM</h3>
+            <p>Государства реагируют на игрока через языковую модель, а не по жёсткому сценарию — события, дипломатические предложения и реакции генерируются на лету, в реальном времени, а не пошагово. Планируется использовать бесплатные LLM-модели, чтобы игра не требовала постоянных трат на кредиты после покупки, а для желающих в будущем появится возможность подключить более мощные модели. Также будет доступен обычный сценарный ИИ — как альтернатива для тех, кто предпочитает его или не хочет полагаться на LLM вовсе.</p>
+          </div>
+        </div>
+
+        <div class="menu-card">
+          <div class="menu-icon">▲</div>
+          <div class="menu-text">
+            <h3>Динамический захват территорий</h3>
+            <p>Линии фронта и границы должны меняться как прямое следствие происходящего в мире, а не переключаться между фиксированными регионами. Такая система очень требовательна к реализации и производительности, поэтому планируется множество пресетов качества — с расчётом на то, чтобы игра в перспективе запускалась даже на мобильных устройствах.</p>
+          </div>
+        </div>
+
+        <div class="menu-card">
+          <div class="menu-icon">✚</div>
+          <div class="menu-text">
+            <h3>Встроенный моддинг и мастерская</h3>
+            <p>Собственные карты, сценарии, новые страны и изменённые параметры — всё создаётся прямо внутри игры, без необходимости изучать отдельные сложные инструменты. Готовый мод можно будет сразу опубликовать во встроенной мастерской, откуда другие игроки смогут скачать его в пару кликов.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ---------------------------- DEVELOPER ---------------------------- -->
+  <section class="section" id="developer">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="eyebrow">Разработчик</div>
+        <h2>Один человек, одна студия</h2>
+      </div>
+      <div class="dev-panel">
+        <div class="dev-mark">BG</div>
+        <div>
+          <h3>BrillGames</h3>
+          <p>Dust of War разрабатывается в одиночку под именем студии BrillGames — дизайн, программирование и всё остальное на одном человеке. Активная разработка ведётся уже несколько месяцев, с регулярными публичными обновлениями в Telegram и Discord.</p>
+          <div class="dev-meta">
+            <div><strong>Студия</strong>Соло-разработчик</div>
+            <div><strong>Статус</strong>Ранняя разработка</div>
+            <div><strong>Жанр</strong>2D стратегия реального времени</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-top">
+      <div>
+        <div class="brand" style="margin-bottom:10px;">
+          <span class="brand-main" style="font-size:18px;">DUST</span>
+          <span class="brand-sub">OF WAR</span>
+        </div>
+        <p style="color:var(--text-faint); font-size:13px; max-width:340px; margin:0;">Военно-политическая стратегия реального времени, разрабатываемая в одиночку студией BrillGames.</p>
+      </div>
+      <div class="social-row">
+        <a class="social-icon" href="https://www.youtube.com/@BrillGamesss" target="_blank" rel="noopener" aria-label="YouTube">
+          <img src="../assets/icons/youtube.png" alt="" onerror="this.parentElement.classList.add('placeholder'); this.remove(); this.parentElement.textContent='YT';">
+        </a>
+        <a class="social-icon" href="https://discord.gg/ywq4z9wzdn" target="_blank" rel="noopener" aria-label="Discord">
+          <img src="../assets/icons/discord.png" alt="" onerror="this.parentElement.classList.add('placeholder'); this.remove(); this.parentElement.textContent='DS';">
+        </a>
+        <a class="social-icon" href="https://t.me/brill_gamedev" target="_blank" rel="noopener" aria-label="Telegram">
+          <img src="../assets/icons/telegram.png" alt="" onerror="this.parentElement.classList.add('placeholder'); this.remove(); this.parentElement.textContent='TG';">
+        </a>
+        <a class="social-icon btn-disabled" href="#" aria-disabled="true" aria-label="Вишлист — скоро">
+          <img src="../assets/icons/wishlist.png" alt="" onerror="this.parentElement.classList.add('placeholder'); this.remove(); this.parentElement.textContent='WL';">
+        </a>
+      </div>
+    </div>
+    <div class="frontline" style="margin-bottom:22px;"></div>
+    <div class="footer-bottom">
+      <div>© <span data-year></span> BrillGames. Dust of War — независимый проект в активной разработке.</div>
+      <div class="footer-links">
+        <a href="privacy.html">Политика конфиденциальности</a>
+        <a href="terms.html">Условия использования</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="../js/main.js"></script>
+</body>
+</html>
