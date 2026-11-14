@@ -161,7 +161,7 @@ h1,h2,h3,h4{ font-family:var(--font-display); text-transform:uppercase; margin:0
   display:flex; align-items:center; justify-content:center; background:var(--bg-panel);
   transition:border-color .15s ease, transform .15s ease;
 }
-.social-icon img, .social-icon svg{ width:20px; height:20px; }
+.social-icon img, .social-icon svg{ width:26px; height:26px; }
 .social-icon:hover{ border-color:var(--accent-line); transform:translateY(-2px); }
 .social-icon.placeholder{ color:var(--text-faint); font-family:var(--font-display); font-size:10px; text-align:center; line-height:1.2; }
 
