@@ -402,3 +402,15 @@ body.nav-open{ overflow:hidden; }
   .legal-toc{ padding:16px; }
   .legal-body a, .legal-notice a{ overflow-wrap:anywhere; }
 }
+
+/* -------------------------- stacked logo -------------------------- */
+/* "OF" sits directly above "WAR"; WAR shares the baseline with DUST. */
+.brand{ align-items:flex-end; align-items:last baseline; }
+.logo-stack{ display:inline-flex; flex-direction:column; align-items:center; line-height:1; }
+.logo-stack .logo-of{ font-size:0.6em; letter-spacing:0.16em; padding-left:0.16em; margin-bottom:0.14em; }
+.hero-title{ flex-wrap:nowrap; align-items:flex-end; align-items:last baseline; gap:0.16em; line-height:1; }
+.hero-title .dim.logo-stack{ line-height:1; }
+
+/* Studio logo inside the developer frame */
+.dev-mark{ overflow:hidden; }
+.dev-mark img{ width:100%; height:100%; object-fit:contain; padding:8px; }
