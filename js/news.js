@@ -116,6 +116,7 @@
     if (!/^[a-z0-9-]+$/.test(slug)) return status(el, T.notFound);
     status(el, T.loading);
     getJSON('news/posts/' + slug + '.json').then(function (a) {
+      if (!a || !a.title || a.unpublished) throw new Error('not found');
       document.title = a.title + ' \u2014 Dust of War';
       var meta = document.querySelector('meta[name="description"]');
       if (meta && a.summary) meta.setAttribute('content', a.summary);
