@@ -110,7 +110,7 @@ h1,h2,h3,h4{ font-family:var(--font-display); text-transform:uppercase; margin:0
 }
 .header-actions{ display:flex; align-items:center; gap:14px; flex:none; }
 .brand{ display:flex; align-items:baseline; gap:8px; }
-.brand-main{ font-family:var(--font-display); font-weight:600; font-size:22px; letter-spacing:0.03em; }
+.brand-main{ font-family:var(--font-display); font-weight:600; font-size:28px; letter-spacing:0.03em; }
 .brand-sub{ font-family:var(--font-display); font-weight:400; font-size:10px; color:var(--text-faint); letter-spacing:0.14em; }
 
 .main-nav{ display:flex; align-items:center; gap:28px; }
@@ -136,7 +136,7 @@ h1,h2,h3,h4{ font-family:var(--font-display); text-transform:uppercase; margin:0
 .hero{ padding:96px 0 72px; position:relative; }
 .hero-title{ font-size:clamp(48px,9vw,96px); font-weight:700; display:flex; flex-wrap:wrap; align-items:baseline; gap:18px; margin-top:18px; }
 .hero-title .dim{ color:var(--text-faint); font-weight:400; font-size:0.42em; line-height:1.1; }
-.hero-underline{ height:3px; width:220px; background:var(--accent); margin:22px 0 26px; }
+.hero-underline{ height:3px; width:280px; background:var(--accent); margin:22px 0 26px; }
 .hero-sub{ max-width:640px; color:var(--text-muted); font-size:18px; }
 
 .hero-cta-row{ display:flex; flex-wrap:wrap; align-items:center; gap:16px; margin-top:34px; }
