@@ -23,10 +23,11 @@
       <a href="index.html#concept">Концепция</a>
       <a href="index.html#pillars">Основы</a>
       <a href="index.html#developer">Разработчик</a>
+      <a href="news.html">Новости</a>
       <a href="privacy.html">Конфиденциальность</a>
       <a href="terms.html">Условия</a>
     </nav>
-    <div style="display:flex; align-items:center; gap:14px;">
+    <div class="header-actions">
       <div class="lang-toggle">
         <a href="../index.html">EN</a>
         <a href="index.html" class="active">RU</a>
@@ -67,12 +68,15 @@
   <!-- ---------------------------- NEWS ---------------------------- -->
   <section class="section" style="padding-bottom:0;">
     <div class="wrap">
-      <div class="news-card">
+      <div class="news-card" data-latest-news>
         <div>
-          <h4>Скоро бета-сборка v0.2.5</h4>
+          <h4><a href="news.html" data-latest-link>Скоро бета-сборка v0.2.5</a></h4>
           <p>Совсем скоро начнутся регулярные дневники разработки — прогресс, новые механики и закулисные заметки.</p>
         </div>
-        <a href="https://t.me/brill_gamedev" target="_blank" rel="noopener" class="btn btn-ghost" style="padding:10px 18px;">Следить за новостями</a>
+        <div class="news-card-actions">
+          <a href="news.html" class="btn btn-primary" style="padding:10px 18px;">Все новости</a>
+          <a href="https://t.me/brill_gamedev" target="_blank" rel="noopener" class="btn btn-ghost" style="padding:10px 18px;">Следить за новостями</a>
+        </div>
       </div>
     </div>
   </section>
